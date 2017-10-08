@@ -67,6 +67,7 @@
                         android:layout_height="75dp"
                         android:layout_weight="1"
                         android:text="+"
+                        android:onClick="addMtd"
                         android:textSize="36sp" />
                 </LinearLayout>
 
@@ -105,6 +106,7 @@
                         android:layout_height="75dp"
                         android:layout_weight="1"
                         android:text="-"
+                        android:onClick="subMtd"
                         android:textSize="36sp" />
                 </LinearLayout>
 
@@ -165,6 +167,7 @@
                         android:layout_height="75dp"
                         android:layout_weight="1"
                         android:text="."
+                        android:onClick="floatMtd"
                         android:textSize="36sp" />
 
                     <Button
@@ -172,6 +175,7 @@
                         android:layout_height="75dp"
                         android:layout_weight="1"
                         android:text="="
+                        android:onClick="rstMtd"
                         android:textSize="36sp" />
 
                     <Button
